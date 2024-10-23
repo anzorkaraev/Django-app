@@ -184,7 +184,7 @@ logging.config.dictConfig({
     'disable_existing_loggers': False,
     'formatters': {
         'console': {
-            'format': '%(asctime)s %(levelname) [%(name):%(lineno)s] %(module)s %(message)s',
+            'format': '%(asctime)s %(levelname)s [%(name)s:%(lineno)s] %(module)s %(message)s',
         },
     },
     'handlers': {
